@@ -1,0 +1,51 @@
+<!doctype html>
+<HTML>
+   <head>
+   <title><%= context.title %></title>
+     <link href="gallery.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="container-fluid">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h1>User Profile</h1>
+            </div>
+          </div>
+          <div class="row no-gutter">
+          <div class="offset-md-2 col-md-8">
+            <div class="card">
+              <h3 class="card-header">Profile</h3>
+              <div class="card-block">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <%=context.imageTags %>
+                    </div>
+                    <div class="col-md-8">
+
+                        <table class="table table-bordered">
+                          <tr><th>Name</th></tr><tr><td><%= context.title %></td></tr>
+                          <tr><th>Description</th></tr><tr><td><%= context.desc %></td></tr>
+                        </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</HTML>

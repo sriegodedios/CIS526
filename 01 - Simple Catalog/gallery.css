@@ -1,0 +1,44 @@
+img{
+  width: 250px;
+  height: 310px;
+}
+
+.profile{
+  width: 350px;
+  height: 410px;
+}
+
+.upload{
+  background-color: #42b3f4;
+  border-color: #001fbc;
+}
+
+.success{
+  color: green;
+
+}
+
+.gallery{
+  margin:15px;
+
+}
+
+.form{
+  margin-bottom: 20px;
+}
+
+.form-p{
+  margin-top:15px;
+}
+
+.change-title-entry{
+  background: #99ccff;
+}
+
+.gallery-row{
+  margin-bottom: 30px;
+}
+
+.g-main{
+  background-color: #D3D3D3;
+}
